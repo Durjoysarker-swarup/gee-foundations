@@ -22,3 +22,7 @@ In this phase, I focus on understanding:
 
 ---
 
+## Detailed Documentation
+Full explanations, derivations, and learning notes are maintained here:
+
+📄 Google Docs: [GEE Phase 2 Notes]([https://docs.google.com/your-link-here](https://docs.google.com/document/d/1HLRkkcZk_cqZuQzJdhllJN_HkTQY-asotHpMLvByr08/edit?tab=t.igjeoanbh6ac#heading=h.6509z7dxb5y6))
