@@ -21,7 +21,6 @@ In this phase, I focus on understanding:
 - Time-series concepts
 
 ---
-
 ## Detailed Documentation
 Full explanations, derivations, and learning notes are maintained here:
 
