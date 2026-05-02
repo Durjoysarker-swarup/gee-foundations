@@ -51,3 +51,23 @@ var stats = ndvi.reduceRegion({
 print(stats);
 
 
+// NDVI HISTOGRAM PLOT (GRAPH)
+var chart = ui.Chart.image.histogram({
+  image: ndvi,
+  region: roi,
+  scale: 20,
+  minBucketWidth: 0.01,
+  maxPixels: 1e13,
+});
+
+chart.setOptions({
+  title: 'NDVI Histogram (Vegetation Distribution)',
+  hAxis: {title: 'NDVI Value'},
+  vAxis: {title: 'Pixel Count'},
+  colors: ['green']
+});
+
+print(chart);
+
+
+
