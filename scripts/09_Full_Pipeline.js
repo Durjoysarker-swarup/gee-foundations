@@ -1,3 +1,8 @@
+// Sentinel-2 NDVI Time-Series Analysis using Google Earth Engine
+// Workflow includes SCL-based cloud masking, ROI buffering, NDVI computation, and zonal statistics
+// Generates temporal NDVI trends with mean, median, and standard deviation aggregation
+// Designed for agricultural vegetation monitoring and spatial-temporal analysis
+
 //DEFINE ROI + Apply buffer
 var bufferedROI = ee.Geometry.Rectangle([91.7, 24.7, 92.0, 25.0]).buffer(-200);
 
